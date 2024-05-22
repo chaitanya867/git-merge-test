@@ -1,3 +1,3 @@
 #Global
-project_id         = "searce-playground-v1"
-network_project_id = "searce-playground-v1"
+project_id         = "searce-playground-v2"
+network_project_id = "searce-playground-v2"
