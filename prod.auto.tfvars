@@ -1,7 +1,7 @@
 jenkins-servers = [
   {
-    machine_name            = "hdfc-jenkins-test-vm"
-    machine_zone            = "asia-south1-b"
+    machine_name            = "jenkins-test-vm"
+    machine_zone            = "asia-south1-a"
 instance_labels = {
       
     }
@@ -17,10 +17,10 @@ instance_labels = {
     }
 
     data_disk_info = {
-      disk_name                   = "additional-disk"
+      disk_name                   = "additional"
       data_disk_snapshot_selflink = ""
       disk_size_gb                = 10
-      disk_type                   = "pd-standard"
+      disk_type                   = "pd-ssd"
     }
 
     disk_labels = {
